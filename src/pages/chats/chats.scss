@@ -1,0 +1,44 @@
+page-chats {
+    #footer {
+        display: flex;
+        flex-direction: row;
+    }
+    #footer div.elem:first-child {
+        flex-grow: 1;
+    }
+    .elem button {
+        border-radius: 40px;
+        margin: 0px;
+        background-color: #FDE5A9;
+        color: #333333;
+    }
+    .text-input.text-input-md {
+        border-bottom: 1px dotted #FACB48;
+    }
+    .innerMessage {
+        display: inline-block;
+        margin-top: 16px;
+        padding: 10px 15px 10px 12px;
+        background-color: #FACB48;
+        border-radius: 14px 14px 1px 14px;
+    }
+    .messageLeft
+    {
+        float: left;
+    }
+    .messageRight{
+        float: right;
+    }
+    .message {
+
+        display: block;
+        clear: both;
+        float: right;
+    
+    }
+    .sendButton {
+        padding: 0;
+        min-width: 0;
+        width: 80%;
+    }
+}
